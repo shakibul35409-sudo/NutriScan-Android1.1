@@ -1,0 +1,4 @@
+-keep class com.getcapacitor.** { *; }
+-keep class com.google.** { *; }
+-dontwarn com.google.**
+-dontwarn org.apache.**
